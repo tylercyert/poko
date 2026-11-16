@@ -4,13 +4,13 @@
   "description": "Poko: Learn Anything. Tell Poko what you want to learn and why, and get a personal skill path of short interactive lessons.",
   "license": "MIT",
   "author": "Tyler Cyert",
-  "homepage": "https://github.com/tylercyert/indy-learning-app#readme",
+  "homepage": "https://github.com/tylercyert/poko#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tylercyert/indy-learning-app.git"
+    "url": "git+https://github.com/tylercyert/poko.git"
   },
   "bugs": {
-    "url": "https://github.com/tylercyert/indy-learning-app/issues"
+    "url": "https://github.com/tylercyert/poko/issues"
   },
   "keywords": [
     "learning",

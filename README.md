@@ -51,7 +51,7 @@ The full picture is in [docs/architecture.md](docs/architecture.md), with decisi
 You need Node 24 LTS and an [Anthropic API key](https://console.anthropic.com/). The key stays on the server.
 
 ```sh
-git clone https://github.com/tylercyert/indy-learning-app.git poko
+git clone https://github.com/tylercyert/poko.git poko
 cd poko
 npm ci
 cp server/.env.example server/.env      # set ANTHROPIC_API_KEY
@@ -112,7 +112,7 @@ Also run with `npx tsx`: `server/scripts/screen-smoke.ts` (Goal Screening), `qa/
 - `npm run verify` runs the typecheck, lint with zero warnings and the unit tests. It must pass on every change.
 - `npm run qa:journey` drives a full learner journey headlessly against a running server and saves screenshots.
 - `npx tsx qa/a11y/audit.ts` runs axe-core plus keyboard passes. `npm run qa:slides` renders stress fixtures for every component.
-- Not yet verified: native builds on real devices, VoiceOver and TalkBack. Device QA is tracked in [#9](https://github.com/tylercyert/indy-learning-app/issues/9).
+- Not yet verified: native builds on real devices, VoiceOver and TalkBack. Device QA is tracked in [#9](https://github.com/tylercyert/poko/issues/9).
 
 ## Contributing
 
